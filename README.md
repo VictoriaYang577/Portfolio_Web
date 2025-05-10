@@ -74,5 +74,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact
 
-Your Name - your.email@example.com
-Project Link: [https://github.com/yourusername/portfolio-website](https://github.com/yourusername/portfolio-website) 
+Victoria
+Project Link: https://github.com/VictoriaYang577/Portfolio_Web/edit/main/README.md
