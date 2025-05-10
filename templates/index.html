@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to My Portfolio</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <nav>
@@ -16,31 +17,104 @@
 
     <main>
         <section class="hero">
-            <h1>Welcome to My Portfolio</h1>
-            <p>Explore my work and get to know me better</p>
+            <div class="hero-content">
+                <h1>Welcome to My Portfolio</h1>
+                <p class="subtitle">Full Stack Developer | Problem Solver | Tech Enthusiast</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary">View Projects</a>
+                    <a href="/about" class="btn secondary">Learn More</a>
+                </div>
+            </div>
         </section>
 
-        <section class="content">
+        <section id="projects" class="content">
             <h2>Featured Projects</h2>
             <div class="projects-grid">
                 <div class="project-card">
-                    <h3>Project 1</h3>
-                    <p>Description of project 1</p>
+                    <div class="project-image">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Portfolio Website</h3>
+                    <p class="project-tech">Flask | HTML | CSS | Python</p>
+                    <p class="project-description">A responsive portfolio website showcasing my projects and skills. Features modern design, smooth animations, and mobile-first approach.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/VictoriaYang577/Portfolio_Web" target="_blank" class="btn small">
+                            <i class="fab fa-github"></i> View Code
+                        </a>
+                    </div>
                 </div>
                 <div class="project-card">
-                    <h3>Project 2</h3>
-                    <p>Description of project 2</p>
+                    <div class="project-image">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile App Development</h3>
+                    <p class="project-tech">React Native | JavaScript | Firebase</p>
+                    <p class="project-description">Developed a cross-platform mobile application with real-time data synchronization and offline capabilities.</p>
+                    <div class="project-links">
+                        <a href="#" class="btn small">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                    </div>
                 </div>
                 <div class="project-card">
-                    <h3>Project 3</h3>
-                    <p>Description of project 3</p>
+                    <div class="project-image">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Data Analysis Tool</h3>
+                    <p class="project-tech">Python | Pandas | Matplotlib</p>
+                    <p class="project-description">Created a data analysis tool that processes large datasets and generates insightful visualizations.</p>
+                    <div class="project-links">
+                        <a href="#" class="btn small">
+                            <i class="fas fa-file-alt"></i> Documentation
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills-preview">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>HTML5 & CSS3</li>
+                        <li>JavaScript (ES6+)</li>
+                        <li>React.js</li>
+                        <li>Responsive Design</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>Flask</li>
+                        <li>Node.js</li>
+                        <li>RESTful APIs</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Others</h3>
+                    <ul>
+                        <li>Git & GitHub</li>
+                        <li>Docker</li>
+                        <li>Agile Methodologies</li>
+                        <li>Problem Solving</li>
+                    </ul>
                 </div>
             </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://github.com/VictoriaYang577" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/your-profile" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:your.email@example.com"><i class="fas fa-envelope"></i></a>
+            </div>
+            <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 </html> 

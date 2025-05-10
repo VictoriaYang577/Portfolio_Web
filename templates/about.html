@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me - Portfolio</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <nav>
@@ -16,30 +17,106 @@
 
     <main>
         <section class="about-section">
-            <h1>About Me</h1>
+            <div class="about-header">
+                <h1>About Me</h1>
+                <p class="subtitle">Passionate Developer & Problem Solver</p>
+            </div>
+
             <div class="about-content">
                 <div class="about-text">
                     <h2>My Journey</h2>
-                    <p>Welcome to my portfolio! I am a passionate developer dedicated to creating meaningful and impactful solutions.</p>
+                    <p>I am a dedicated full-stack developer with a passion for creating innovative solutions and solving complex problems. My journey in technology began with a curiosity about how things work, which led me to pursue a career in software development.</p>
                     
-                    <h2>Skills</h2>
-                    <ul class="skills-list">
-                        <li>Web Development</li>
-                        <li>Python</li>
-                        <li>Flask</li>
-                        <li>HTML/CSS</li>
-                        <li>JavaScript</li>
-                    </ul>
+                    <h2>Education</h2>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-date">2020 - 2024</div>
+                            <div class="timeline-content">
+                                <h3>Bachelor of Science in Computer Science</h3>
+                                <p>University Name</p>
+                                <ul>
+                                    <li>GPA: 3.8/4.0</li>
+                                    <li>Relevant Coursework: Data Structures, Algorithms, Web Development, Database Systems</li>
+                                    <li>Dean's List: All Semesters</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
 
-                    <h2>Experience</h2>
-                    <p>I have worked on various projects that have helped me grow as a developer and problem solver.</p>
+                    <h2>Professional Experience</h2>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-date">2023 - Present</div>
+                            <div class="timeline-content">
+                                <h3>Full Stack Developer</h3>
+                                <p>Company Name</p>
+                                <ul>
+                                    <li>Developed and maintained web applications using modern technologies</li>
+                                    <li>Collaborated with cross-functional teams to deliver high-quality solutions</li>
+                                    <li>Implemented responsive designs and optimized application performance</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">2022 - 2023</div>
+                            <div class="timeline-content">
+                                <h3>Software Development Intern</h3>
+                                <p>Company Name</p>
+                                <ul>
+                                    <li>Assisted in developing and testing new features</li>
+                                    <li>Participated in code reviews and team meetings</li>
+                                    <li>Contributed to documentation and technical specifications</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h2>Skills & Expertise</h2>
+                    <div class="skills-container">
+                        <div class="skill-category">
+                            <h3>Technical Skills</h3>
+                            <ul class="skills-list">
+                                <li>Web Development (HTML, CSS, JavaScript)</li>
+                                <li>Python & Flask</li>
+                                <li>React.js & Node.js</li>
+                                <li>Database Management (SQL, MongoDB)</li>
+                                <li>Version Control (Git, GitHub)</li>
+                            </ul>
+                        </div>
+                        <div class="skill-category">
+                            <h3>Soft Skills</h3>
+                            <ul class="skills-list">
+                                <li>Problem Solving</li>
+                                <li>Team Collaboration</li>
+                                <li>Communication</li>
+                                <li>Time Management</li>
+                                <li>Adaptability</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <h2>Goals & Aspirations</h2>
+                    <p>I am constantly seeking opportunities to grow and learn new technologies. My goal is to contribute to meaningful projects that make a positive impact on people's lives. I am particularly interested in:</p>
+                    <ul class="goals-list">
+                        <li>Developing scalable and efficient web applications</li>
+                        <li>Exploring emerging technologies and frameworks</li>
+                        <li>Contributing to open-source projects</li>
+                        <li>Mentoring and sharing knowledge with others</li>
+                    </ul>
                 </div>
             </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://github.com/VictoriaYang577" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/your-profile" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:your.email@example.com"><i class="fas fa-envelope"></i></a>
+            </div>
+            <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 </html> 
